@@ -8,4 +8,87 @@
  Version:      1.0.0
 */
 
-@import "../virtue/style.css"
+@import "../virtue/style.css";
+
+
+#nav-second ul.sf-menu>li>a {
+	background: rgb(87,148,151); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgb(87,148,151) 0%, rgb(59,120,123) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(87,148,151)), color-stop(100%,rgb(59,120,123))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgb(87,148,151) 0%,rgb(59,120,123) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgb(87,148,151) 0%,rgb(59,120,123) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgb(87,148,151) 0%,rgb(59,120,123) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgb(87,148,151) 0%,rgb(59,120,123) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#579497', endColorstr='#3b787b',GradientType=0 ); /* IE6-9 */
+	;
+}
+
+ul, ol {
+	margin-left: 5%;
+}
+
+ul li, ol li {
+	margin-bottom: 10px;
+}
+
+.kad-btn {
+	font-size: 16px;
+}
+
+.subhead {
+	font-size: 16px;
+}
+
+.subhead a {
+	font-size: 16px;
+}
+
+.sidebar .widget {
+	background: #EEDDC1;
+    padding: 10px;
+    box-shadow: 2px 4px 15px grey;
+    color: #1B9297;
+    font-weight: normal;
+}
+
+.widget-title, .widget-inner h5 {
+	color: #1B9297;
+}
+
+.sf-menu li a .sf-description {
+	display: none !important
+}
+
+.hometitle {
+	text-align: left;
+}
+
+.mc4wp-form-basic input[type=submit] {
+	background-color: #1B9297;
+	color: white;
+	padding: 10px 15px;
+}
+
+.mc4wp-form-basic label, .mc4wp-form-theme label {
+	font-weight: normal;
+}
+
+.posttags a {
+	font-size: 16px;
+}
+
+#nav-second ul.sf-menu>li {
+	width: 20%;
+}
+
+#nav-second ul.sf-menu a:hover {
+	color: #EEDDC1 !important;
+}
+
+#commentform input {
+	display: inline-block;
+}
+
+#commentform label span {
+	color: #1B9297;
+}
