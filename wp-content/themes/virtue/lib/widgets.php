@@ -36,8 +36,8 @@ function virtue_register_sidebar($name, $id){
     'id' => $id,
     'before_widget' => '<section id="%1$s" class="widget %2$s"><div class="widget-inner">',
     'after_widget' => '</div></section>',
-    'before_title' => '<h3>',
-    'after_title' => '</h3>',
+    'before_title' => '<h5>',
+    'after_title' => '</h5>',
   ));
 }
 add_action('widgets_init', 'virtue_register_sidebars');
